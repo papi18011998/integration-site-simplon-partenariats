@@ -1,0 +1,41 @@
+#burger,#burgerIcon{
+    display: none;
+}
+nav{
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-btn{
+    font-size: 24px;
+    border-radius: 50px;
+    width: 150px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+}
+.menu{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.menu>li{
+    list-style: none;
+    padding: 1.5rem;
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2rem;
+}
+.active{
+    border-bottom: 2px #ce0033 solid;
+    color: #ce0033;
+}
+.image-banner{
+    height:800px;
+}
