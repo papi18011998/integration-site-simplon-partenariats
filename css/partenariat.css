@@ -104,3 +104,11 @@ h2,h3,h4{
     margin-left: 20px ;
     border: 1px solid;
 }
+.soutenir-texte, .soutenir-texte>h2{
+    color: white;
+}
+.soutenir-bloc{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
