@@ -1,4 +1,13 @@
-
+@font-face {
+    font-family: 'nunito_sanssemibold';
+    src: url('font/nunitosans-semibold-webfont.woff2') format('woff2'),
+         url('font/nunitosans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'nunito_sanssemibold';
+}
 #burger,#burgerIcon{
     display: none;
 }
@@ -6,6 +15,7 @@ nav{
     width: 100%;
     display: flex;
     font-size: 24px;
+    height: 70px;
     justify-content: center;
     align-items: center;
 }
@@ -15,7 +25,8 @@ nav{
     width: 150px;
 }
 .logo{
-    width: 20%;
+    width: 10%;
+    height: 70px;
     display: flex;
 }
 .menu{
@@ -54,20 +65,22 @@ ul>li>a:hover{
     background-color: black;
     opacity: 0.8;
     z-index:1;
-  }
+  } 
 .banner{
     position: relative;
     width: 100%;
 }
 .title-page{
     position: absolute;
-    left: 30%;
-    top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
+    width: 100%;
+    top: 250px;
     font-weight: bolder;
-    letter-spacing: 50px;
     z-index: 2;
-    font-size: 40px;
+    font-size: 70px;
 }
 p{
     font-size: 24px;
@@ -79,9 +92,6 @@ h3{
     font-size: 36px;
 }
 h4{
-    font-size: 30px;
-}
-.description-reseau{
     font-size: 30px;
 }
 h2,h3,h4{
@@ -96,13 +106,13 @@ h2,h3,h4{
     overflow: hidden;
     display: flex; 
     height: 300px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 .slide-container>img{
     height: 300px;
     width: 300px;
     margin-left: 20px ;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .soutenir-texte, .soutenir-texte>h2{
     color: white;
@@ -111,4 +121,42 @@ h2,h3,h4{
     position: absolute;
     top: 100px;
     z-index: 1;
+}
+h2+p{
+    font-size: 27px;
+}
+p{
+    font-size: 24px;
+}
+.red-bloc-support{
+    border-radius: 10px;
+    background-color: #ce0033;
+    position: relative;
+    bottom: 100px;
+    padding-bottom: 30px;
+   z-index: 2;
+}
+.color-white{
+    color: white;
+}
+.border-text{
+    border-left: 2px white solid;
+    border-right: 2px white solid;
+}
+.boldered{
+    font-size: 30px;
+}
+.btn-white{
+    background-color: white;
+    color: #ce0033;
+    border-radius: 50px;
+    height: 70px;
+    font-size: 24px;
+}
+.btn-red{
+    background-color: #ce0033;
+    color: white;
+    border-radius: 50px;
+    height: 70px;
+    font-size: 24px;
 }
