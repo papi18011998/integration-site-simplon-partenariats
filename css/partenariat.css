@@ -32,10 +32,55 @@ ul>li>a{
     color: black;
     padding-bottom: 2rem;
 }
+ul>li>a:hover{
+    text-decoration: none;
+    color: black;
+}
 .active{
     border-bottom: 2px #ce0033 solid;
     color: #ce0033;
 }
 .image-banner{
     height:800px;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left:0;
+    height:800px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    z-index:1;
+  }
+.banner{
+    position: relative;
+    width: 100%;
+}
+.title-page{
+    position: absolute;
+    left: 30%;
+    top: 400px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 50px;
+    z-index: 2;
+    font-size: 40px;
+}
+p{
+    font-size: 24px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 30px;
+}
+h2,h3{
+    color: #ce0033;
+}
+hr{
+    color: black;
+    border: solid 4px black;
 }
