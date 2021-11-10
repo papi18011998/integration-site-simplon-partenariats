@@ -1,3 +1,4 @@
+
 #burger,#burgerIcon{
     display: none;
 }
@@ -75,12 +76,31 @@ h2{
     font-size: 48px;
 }
 h3{
+    font-size: 36px;
+}
+h4{
     font-size: 30px;
 }
-h2,h3{
-    color: #ce0033;
+.description-reseau{
+    font-size: 30px;
 }
-hr{
-    color: black;
+h2,h3,h4{
+    color: #ce0033;
+    font-weight: bolder;
+}
+.barre{
     border: solid 4px black;
+    margin-bottom:20px ;
+}
+.slide-container{
+    overflow: hidden;
+    display: flex; 
+    height: 300px;
+    border: 1px black solid;
+}
+.slide-container>img{
+    height: 300px;
+    width: 300px;
+    margin-left: 20px ;
+    border: 1px solid;
 }
