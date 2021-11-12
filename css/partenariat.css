@@ -8,6 +8,7 @@
 body{
     font-family: 'nunito_sanssemibold';
     padding-top: 2px;
+    overflow-x: hidden;
 }
  #burger,#burgerIcon{
     display: none;
@@ -99,7 +100,6 @@ h2,h3,h4{
     height: 200px;
     width: 200px;
     margin-left: 20px ;
-    /* border: 1px solid; */
 }
 .soutenir-texte, .soutenir-texte>h2{
     color: white;
@@ -168,7 +168,6 @@ p{
 .grille{
     display: grid;
     height: auto;
-    /* width: 1300px; */
     grid-template-columns: repeat(auto-fill,300px);
     justify-content: center;
     grid-gap: 80px;
@@ -176,6 +175,19 @@ p{
 .grid-item{
     width: 175px;
     height: 175px;
+}
+.footer-element-color-red{
+ background-color: #ce0033;
+ height: 82px;
+}
+.row > *{
+    padding-right: 0;
+    padding-left: 0;
+}
+.footer{
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* Media queries for mobile 768px*/
 @media screen and (max-width:768px) {
