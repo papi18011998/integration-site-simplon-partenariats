@@ -1,3 +1,87 @@
+/* debut stylisation menu */
+
+  .nav {
+    height: 59px;
+    width: 100%;
+  }
+  
+  .nav-img {
+    display: inline-block;
+    height: 59px;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav-btn {
+    display: none;
+  }
+  
+  .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav-links>li {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-links>li>a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-links>li> a:hover {
+    color: #ce0033;
+  }
+  #nav-check {
+    display: none;
+  }
+  
+  @media screen and (max-width:768px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      text-align: right;
+      position: absolute;
+      right: 0px;
+      top: 0px; 
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 100px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #ce0033;
+    }
+    .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color:white;
+      transition: all 0.5s ease-in;
+      overflow-y: hidden;
+      top: 59px;
+      left: 0px;
+      z-index: 1;
+    }
+    .nav-links>li {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+    }
+  }
+/* fin stylisation menu */
 @font-face {
     font-family: 'nunito_sanssemibold';
     src: url('font/nunitosans-semibold-webfont.woff2') format('woff2'),
@@ -10,7 +94,7 @@ body{
     padding-top: 2px;
     overflow-x: hidden;
 }
- #burger,#burgerIcon{
+ /* #burger,#burgerIcon{
     display: none;
 }
 .contact-btn{
@@ -46,7 +130,7 @@ a{
 .active{
     border-bottom: 6px #ce0033 solid;
     color: #ce0033;
-}
+} */
 .image-banner{
     height:800px;
     width: 100%;

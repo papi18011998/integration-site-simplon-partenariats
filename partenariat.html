@@ -14,23 +14,23 @@
 
 <body>
     <header>
-        <nav>
-            <img class="logo" src="img/logo.png" alt="logo">
-            <label for="burger" id="burgerIcon">&equiv;</label>
-            <input type="checkbox" id="burger" class="checkbox">
-            <ul class="menu">
-                <li><a href="#">Fabrique</a></li>
-                <li><a href="#">Formation</a></li>
-                <li><a href="#" class="active" >Partenariats</a></li>
-                <li><a href="#">Espaces</a></li>
-                <li><a href="#">Entités</a></li>
-                <li><span class="glyphicon glyphicon-search"></span></li>
-                <li><select name="langue" id="langue">
-                        <option value="fr">Fr</option>
-                        <option value="en">En</option>
-                    </select>
-                </li>
-                <li><button class="btn btn-danger contact-btn">Contact</button></li>
+        <nav class="nav">
+            <input type="checkbox" id="nav-check">
+                <img src="img/logo.png" alt="logo de simplon" class="nav-img">
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <ul class="nav-links">
+              <li><a href="#" target="_blank">Fabrique</a></li>
+              <li><a href="#" >Formation</a></li>
+              <li><a href="#" target="_blank">Partenariat</a></li>
+              <li><a href="#" target="_blank">Espaces</a></li>
+              <li><a href="#" target="_blank">Entités</a><li>
             </ul>
         </nav>
     </header>
