@@ -10,7 +10,10 @@ body{
     padding-top: 2px;
     overflow-x: hidden;
 }
-
+li>.btn-red{
+ font-size: 18px;
+ height: auto;
+}
 .select{
     border: 0;
 }
