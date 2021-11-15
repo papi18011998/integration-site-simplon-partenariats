@@ -156,7 +156,7 @@ p{
 }
 .footer-element-color-red{
  background-color: #ce0033;
- height: 82px;
+ color: white;
 }
 .row > *{
     padding-right: 0;
@@ -166,6 +166,9 @@ p{
     background-image: url("../img/footer.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.height-input{
+    height: 3rem;
 }
 /* Media queries for mobile 768px*/
 @media screen and (max-width:768px) {
