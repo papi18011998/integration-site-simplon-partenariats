@@ -170,8 +170,38 @@ p{
 .height-input{
     height: 3rem;
 }
+
+
+.testimonial {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+  .testimonial img {
+    width: 100%;
+    height: auto;
+  }
+  .owl-theme .owl-controls .owl-page span {
+    border: 2px solid #000;
+    background: #fff !important;
+    border-radius: 50% !important;
+    opacity: 1;
+  }
+  .owl-theme .owl-controls .owl-page.active span,
+  .owl-theme .owl-controls .owl-page:hover span {
+    background: #ce0033 !important;
+    border-color: #ce0033;
+  }
+
 /* Media queries for mobile 768px*/
 @media screen and (max-width:768px) {
+    .testimonial {
+        padding: 20px;
+        text-align: center;
+        margin-left: 40%;
+        border: 1px solid;
+      }
     .red-bloc-support{
         position: static;
         margin-top: 10px;
