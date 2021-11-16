@@ -1,15 +1,15 @@
 window.onload = function(){
-mybutton = document.getElementById("myBtn");
+back_to_top = document.getElementById("btn-back-to-top");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    back_to_top.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    back_to_top.display = "none";
   }
 }
-myBtn.onclick = function(){
+back_to_top.onclick = function(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
