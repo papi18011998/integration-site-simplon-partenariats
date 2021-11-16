@@ -282,4 +282,12 @@ p{
         height: 50px;
         font-size: 12px;
     }
+    .row>*{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 }
