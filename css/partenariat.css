@@ -210,9 +210,6 @@ p{
   #btn-back-to-top :hover{
       transform: scale(3);
   }
-  ul{
-     height: 60px;
-  }
   a{
       color:black !important;
       font-weight: bold !important;
