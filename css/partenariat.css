@@ -171,7 +171,6 @@ p{
     height: 3rem;
 }
 
-
 .testimonial {
     width: 150px;
     height: 150px;
@@ -183,13 +182,17 @@ p{
     height: auto;
   }
   .owl-theme .owl-controls .owl-page span {
-    border: 2px solid #000;
+    border: 2px solid rgb(36, 35, 35);
     background: #fff !important;
     border-radius: 50% !important;
     opacity: 1;
   }
-  .owl-theme .owl-controls .owl-page.active span,
+  .owl-theme .owl-controls .owl-page.active span{
+    background: #ce0033 !important;
+    border-color: #ce0033;
+  }
   .owl-theme .owl-controls .owl-page:hover span {
+    transform: scale(2);
     background: #ce0033 !important;
     border-color: #ce0033;
   }
@@ -199,19 +202,17 @@ p{
     .testimonial {
         padding: 20px;
         text-align: center;
-        margin-left: 40%;
-        border: 1px solid;
+        margin-left: 30%;
       }
+    .text-justify{
+        text-align: justify;
+    }
     .red-bloc-support{
         position: static;
         margin-top: 10px;
     }
     .border-text{
         border: none;
-    }
-    .bordered-responsive{
-        border-top: 2px  white solid;
-        border-bottom: 2px white solid;
     }
     .title-page{
         font-size: 30px;
@@ -233,32 +234,6 @@ p{
     .bordered{
         border-radius: 0px;
     }
-    .menu{
-        display: none;
-    }
-    #burgerIcon{
-        display: block;
-        text-align: right;
-        color: #ce0033;
-        font-size: 90px;
-        transform: translateY(-20%);
-    }
-    #burger:checked + .menu{ 
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        position: absolute;background-color: white;
-        top: 100px;
-        right: 0px;
-        background-color: white;
-        z-index: 3;
-    }
-    .active{
-        border: none;
-    }
-    .overlay{
-        display: none;
-    }
     .grille{
         display: grid;
         height: auto;
@@ -275,6 +250,21 @@ p{
         font-weight: bolder;
         text-align: center;
     }
+    h2+p{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 24px;
+    }
     .barre{
         border: none;
     }
@@ -283,13 +273,13 @@ p{
         color: #ce0033;
         border-radius: 30px;
         height: 50px;
-        font-size: 18px;
+        font-size: 12px;
     }
     .btn-red{
         background-color: #ce0033;
         color: white;
         border-radius: 30px;
         height: 50px;
-        font-size: 18px;
+        font-size: 12px;
     }
 }
