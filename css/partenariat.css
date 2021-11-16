@@ -210,6 +210,21 @@ p{
   #btn-back-to-top :hover{
       transform: scale(3);
   }
+  ul{
+     height: 60px;
+  }
+  a{
+      color:black !important;
+      font-weight: bold !important;
+  }
+  a:hover{
+    text-decoration: none;
+    transform: scale(1.5);
+}
+.activate-link{
+    color: #ce0033 !important;
+    border-bottom: 3px solid #CE0033;
+}
 
 /* Media queries for mobile 768px*/
 @media screen and (max-width:768px) {
