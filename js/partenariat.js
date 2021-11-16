@@ -4,7 +4,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    back_to_top.style.display = "block";
+    back_to_top.style.display = "block"
   } else {
     back_to_top.display = "none";
   }
