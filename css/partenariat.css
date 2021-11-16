@@ -10,7 +10,7 @@ body{
     padding-top: 2px;
     overflow-x: hidden;
 }
-li>.btn-red{
+li>#btn-red-contact{
  font-size: 18px;
  height: auto;
 }
@@ -120,7 +120,7 @@ p{
     height: 70px;
     font-size: 24px;
 }
-.btn-red{
+#btn-red-contact,.btn-red{
     background-color: #ce0033;
     color: white;
     border-radius: 50px;
@@ -273,14 +273,16 @@ p{
         color: #ce0033;
         border-radius: 30px;
         height: 50px;
-        font-size: 12px;
+        font-weight: bold;
+        width: 75%;
     }
     .btn-red{
         background-color: #ce0033;
         color: white;
         border-radius: 30px;
         height: 50px;
-        font-size: 12px;
+        font-weight: bold;
+        width: 75%;
     }
     .row>*{
         padding-left: 0;
@@ -290,4 +292,16 @@ p{
         max-width: 100%;
         overflow-x: hidden;
     }
-}
+}  
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; 
+    outline: none;
+    background-color: red; 
+    color: white; 
+    cursor: pointer;
+    padding: 10px; 
+  }
