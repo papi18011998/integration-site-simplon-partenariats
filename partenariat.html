@@ -47,10 +47,14 @@
                       </li>
                       <li class="nav-item  px-5 "><img src="img/search.svg" alt="image search"></li>
                       <li class="nav-item  ps-5 pe-1 ">
-                        <select class="form-select form-select-lg mb-3 select my-lg-5 my-md-0 my-sm-0" aria-label=".form-select-lg example">
-                            <option value="fr">Fr</option>
-                            <option value="en">En</option>
-                          </select>
+                        <div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Fr</span>
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">En</button>
+                          </div>
+                        </div>
                       </li>
                       <li class="nav-item pe-1 ">
                         <button class="btn" id="btn-red-contact"> Contact</button>

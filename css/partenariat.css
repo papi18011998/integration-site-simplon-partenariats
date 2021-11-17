@@ -222,7 +222,13 @@ p{
     color: #ce0033 !important;
     border-bottom: 3px solid #CE0033;
 }
-
+.dropdown-toggle{
+    color: #ce0033 ;
+}
+.dropdown-toggle>span{
+    color: black;
+    font-size: 15px;
+}
 /* Media queries for mobile 768px*/
 @media screen and (max-width:768px) {
     .testimonial {
