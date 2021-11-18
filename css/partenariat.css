@@ -234,6 +234,21 @@ p{
 }
 /* Media queries for mobile 768px*/
 @media screen and (max-width:768px) {
+    .image-banner{
+        height:400px;
+        width: 100%;
+        filter: saturate(0);
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left:0;
+        height:400px;
+        width: 100%;
+        background-color: black;
+        opacity: 0.8;
+        z-index:1;
+      } 
     .testimonial {
         padding: 20px;
         text-align: center;
