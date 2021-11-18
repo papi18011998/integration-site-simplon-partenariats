@@ -229,6 +229,9 @@ p{
     color: black;
     font-size: 15px;
 }
+.about-us :hover{
+    color: #ce0033 !important;
+}
 /* Media queries for mobile 768px*/
 @media screen and (max-width:768px) {
     .testimonial {

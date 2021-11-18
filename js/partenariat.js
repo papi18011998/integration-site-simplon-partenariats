@@ -14,3 +14,16 @@ back_to_top.onclick = function(){
     document.documentElement.scrollTop = 0;
 }
 }
+$(document).ready(function() {
+  $("#testimonial-slider").owlCarousel({
+    items: 5,
+    itemsDesktop: [1000, 4],
+    itemsDesktopSmall: [990, 2],
+    itemsTablet: [768, 1],
+    pagination: true,
+    navigation: false,
+    navigationText: ["", ""],
+    slideSpeed: 1000,
+    autoPlay: true
+  });
+});
